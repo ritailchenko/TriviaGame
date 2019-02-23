@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Love+Ya+Like+A+Sister|Lato:700" rel="stylesheet">   
+    
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="display-3">In Vino Veritas</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <h3 id="timer"></h3>
+            <div class="col-md-12 text-center">
+                <div id="start-page" class="start-page-text">
+                    <h2>Get ready to play</h2>
+                    <p>Test your basic knowledge of wine with these 7 questions. You have 60 seconds to answer all the questions and the game ends automatically when time has elapsed. Good Luck!</p>
+                    <div class="btn btn-start btn-outline-light" id="start-button">Start</div>
+                </div>
+                <div id="question-box"></div>
+                <div class="hidden" id="end-page">
+                    <h2>Here are your scores:</h2>
+                    <p id="correct-answers"></p>
+                    <p id="incorrect-answers"></p>
+                    <p id="unanswered"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>

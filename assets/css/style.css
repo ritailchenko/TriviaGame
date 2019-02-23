@@ -1,0 +1,68 @@
+body {
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+}
+
+.container {
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-align: center;
+    background-color: #F5E8F9;
+    margin-top: 10em;
+    padding: 2em;
+}
+
+.row {
+    line-height: 2.1;
+}
+
+.start-page-text h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size:2.5vw;
+    margin-bottom: 2vw;
+}
+
+ p, .form-check-label, #question{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5vw;
+}
+
+.btn {
+    font-family: 'Lato', sans-serif;
+    padding: 1vw 3.4vw;
+    margin-top:1em;
+    color: #5D4E60;
+    border-color: #5D4E60;
+    border: 3px solid;
+    font-size: 2vw;
+   
+}
+.btn-outline-light:hover {
+    color: #5D4E60; 
+    background-color: transparent; 
+    border-color: #5D4E60;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle {
+    color: #5D4E60; 
+    background-color: transparent; 
+    border-color: #5D4E60;
+}
+
+.hidden {
+    display:none;
+}
+
+#question{
+    margin-top:2em;
+    font-weight: 700;
+}
+
+.hidden h2 {
+    font-size: 3vw;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-bottom: 2vw;
+}
+
