@@ -4,22 +4,30 @@ body {
 }
 
 .container {
-    font-family: 'Love Ya Like A Sister', cursive;
     text-align: center;
     background-color: #F5E8F9;
     margin-top: 10em;
     padding: 2em;
 }
 
-.row {
-    line-height: 2.1;
+.display-3 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 7vw;
 }
 
-.start-page-text h2 {
+.row {
+    line-height: 2.1vw;
+}
+
+ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size:2.5vw;
-    margin-bottom: 2vw;
+    margin-bottom: 2.5vw;
+}
+
+h3 {
+    font-size: 2vw;
 }
 
  p, .form-check-label, #question{
